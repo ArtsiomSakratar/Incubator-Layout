@@ -1,0 +1,326 @@
+html {
+  scroll-behavior: smooth;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 30px;
+}
+
+.container {
+  width: 1140px;
+  margin: 0 auto;
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style-type: none;
+}
+
+.clear {
+  clear: both;
+}
+
+.upper {
+  text-transform: uppercase;
+}
+
+/* FROM ALL */
+
+section {
+  padding-top: 130px;
+  padding-bottom: 150px;
+}
+
+.section-title {
+  text-align: center;
+  padding-bottom: 130px;
+  color: #343434;
+}
+
+.section-title h2 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  font-size: 38px;
+  letter-spacing: 3px;
+}
+
+.section-title-text {
+  margin-top: 8px;
+  font-family: "Merriweather", serif;
+  font-size: 18px;
+  letter-spacing: 1px;
+  color: #848585;
+}
+
+/* HEADER */
+
+header {
+  /* background-color: #F2F0EF; */
+  background-image: url("../images/header_back.png");
+  background-size: contain;
+  height: 940px;
+}
+
+.logo {
+  display: inline-block;
+  margin-top: 64px;
+  padding: 3px 4px 0px 6px;
+  border: 5px solid black;
+  box-shadow: inset 0px 0px 2px gray;
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  font-size: 17px;
+  letter-spacing: 1px;
+  text-shadow: 0px 0px 1px gray;
+}
+
+.logo span {
+  font-size: 21px;
+  color: #77efe5;
+}
+
+.header-title {
+  margin-top: 205px;
+  text-align: center;
+  text-shadow: 6px 6px 6px lightgray;
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  font-size: 45px;
+  line-height: 60px;
+  letter-spacing: 2px;
+  color: #505050;
+}
+
+.header-title span {
+  background-color: #b1f0ec;
+  text-shadow: 6px 6px 6px #99cccc;
+}
+
+.header-button {
+  display: block;
+  margin: 0 auto;
+  margin-top: 145px;
+  padding: 15px 45px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  font-size: 18px;
+  letter-spacing: 2px;
+  color: #505050;
+  border: 2px solid #505050;
+  background-color: #f2f0ef;
+}
+
+/* SECTION "ABOUT" */
+
+.about {
+  background-color: #f8fafa;
+}
+
+.about-block {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.about-block-logo {
+width: 50%;
+}
+
+.about-block-logo img {
+  padding-left: 40px;
+}
+
+.about-block-text {
+  
+  padding-top: 30px;
+  color: #646565;
+
+}
+
+.about-block-text h3 {
+  font-family: "Merriweather", serif;
+  font-size: 20px;
+  letter-spacing: 1px;
+  font-weight: 600;
+}
+
+.about-block-text p {
+  margin-top: 15px;
+  font-family: "Raleway", sans-serif;
+  font-size: 16px;
+  letter-spacing: 1px;
+  line-height: 27px;
+}
+
+/* SECTION "WORKS" */
+
+.works {
+  background-color: #ffffff;
+}
+
+.works-gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.works-gallery img {
+  margin-bottom: 15px;
+  width: 32%;
+  object-fit: cover;
+}
+
+/* SECTION "TEAM" */
+
+.team {
+  background-color: #f8fafa;
+}
+
+.team-person {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.person {
+  margin-bottom: 15px;
+  width: 32%;
+  position: relative;
+}
+
+.person img {
+  width: 100%;
+  object-fit: cover;
+}
+
+.person-about {
+  position: absolute;
+  width: 75%;
+  height: 40%;
+  left: 4%;
+  bottom: 25px;
+  padding: 30px;
+  margin: 0 auto;
+  background: #6ff5eb;
+  color: #2c3a39;
+  box-shadow: 5px 0px 15px lightgray;
+  z-index: 1;
+  display: none;
+}
+
+.person-about::before {
+  content: "";
+  width: 20px;
+  height: 20px;
+  background-color: #6ff5eb;
+  z-index: 2;
+  position: absolute;
+  top: -10px;
+  left: 25px;
+  transform: rotate(45deg);
+}
+
+.person-name {
+  margin-top: 10px;
+  margin-left: 5px;
+  font-family: 'Merriweather', serif;
+  font-size: 20px;
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+
+.person-name span {
+  color: #767878;
+  font-size: 15px;
+  font-style: italic;
+  font-weight: 400;
+}
+
+.person-about p {
+  margin-top: 10px;
+  font-family: 'Raleway', sans-serif;
+  font-size: 16px;
+  line-height: 25px;
+  color: #214946;
+}
+
+.person-social {
+  margin-top: 20px;
+  color: #214946;
+  font-size: 13px;
+  letter-spacing: 6px;
+}
+
+.person-social a:link{
+  color: #214946;
+}
+
+.person-social a:visited {
+  color: #214946;
+}
+
+.person-social a:hover {
+  color: #214946;
+}
+
+.person:hover .person-about {
+  display: block;
+}
+
+/* SECTION "CONTACTS" */
+
+.contacts {
+  /* background-image: url("../images/contacts_back.png");
+  background-size: cover; */
+  
+}
+
+/* FOOTER */
+
+footer {
+  height: 315px;;
+  background-color: #262b2e;
+}
+
+.follow-container {
+  padding-top: 100px;
+  text-align: center;
+  font-family: 'Raleway', sans-serif;
+  font-size: 16px;
+  color: #bbb8b9;
+}
+
+.follow-container p {
+  margin: 5px;
+}
+
+.social {
+  display: flex;
+  justify-content: center
+}
+
+.social a {
+  display: block;
+  margin: 4px;
+  padding: 5px 10px;
+  width: 25px;
+  background-color: #424648;
+  color: #bbb8b9;
+  font-size: 23px;
+}
+
+.social a:hover {
+  color: black;
+  background-color: #6eeee4;
+}
