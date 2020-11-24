@@ -73,8 +73,8 @@ header {
   height: 940px;
 }
 
-header a {
-  color: #000 !important;
+.logo a {
+  color: #000;
 }
 
 .logo {
@@ -116,14 +116,26 @@ header a {
   display: block;
   margin: 0 auto;
   margin-top: 145px;
-  padding: 15px 45px;
+  padding: 15px 0px;
   font-family: "Montserrat", sans-serif;
   font-weight: 500;
   font-size: 18px;
   letter-spacing: 2px;
-  color: #505050;
+
   border: 2px solid #505050;
   background-color: #f2f0ef;
+}
+.header-button a {
+  padding: 15px 45px;
+  color: #505050;
+}
+
+.header-button:hover {
+  border: 2px #6eeee4 solid;
+}
+
+.header-button:hover a {
+  color: #6eeee4;
 }
 
 /* SECTION "ABOUT" */
@@ -288,7 +300,7 @@ header a {
   background-position: 0;
   background-size: 100%, auto, cover;
   background-repeat: no-repeat;
-  font-family: 'Raleway', sans-serif;
+  font-family: "Raleway", sans-serif;
   font-size: 15px;
   line-height: 24px;
 }
@@ -305,28 +317,29 @@ header a {
   padding: 15px 30px;
   width: calc(52% - 60px);
 }
-input[type=text], input[type=email], textarea {
+input[type="text"],
+input[type="email"],
+textarea {
   width: 100%;
   background-color: transparent;
   border: none;
-  border-bottom:  1px solid #b7bdc1;
+  border-bottom: 1px solid #b7bdc1;
   margin-top: 30px;
   padding-bottom: 15px;
 }
 
-input[type=text]::placeholder,
-input[type=email]::placeholder,
+input[type="text"]::placeholder,
+input[type="email"]::placeholder,
 textarea::placeholder {
-  font-family: 'Raleway', sans-serif;
+  font-family: "Raleway", sans-serif;
   font-size: 15px;
   color: #b7bdc1;
-
 }
 
-input[type=submit] {
+input[type="submit"] {
   border: none;
   background-color: #6eeee4;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-size: 18px;
   line-height: 28px;
   letter-spacing: 2px;
