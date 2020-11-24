@@ -285,6 +285,7 @@ header a {
 .contacts {
   background-color: #f9fbfb;
   background-image: url("../images/contacts_back.png");
+  background-position: 0;
   background-size: 100%, auto, cover;
   background-repeat: no-repeat;
   font-family: 'Raleway', sans-serif;

@@ -1,3 +1,26 @@
+@media screen and (max-width: 1320px) {
+  .person-about {
+    left: 5%;
+    padding: 20px;
+  }
+  .person-name,
+  .person-about p,
+  .person-social {
+    margin-top: 0;
+  }
+
+  .person-name {
+    font-size: 15px;
+  }
+  .person-name span {
+    font-size: 13px;
+  }
+
+  .person-about p {
+    font-size: 14px;
+  }
+}
+
 @media screen and (max-width: 1024px) {
   .about-block-logo {
     width: 40%;
@@ -12,7 +35,7 @@
   }
 
   .person-about {
-    left: 3%;
+    left: 5%;
     padding: 10px;
   }
   .person-name,
@@ -32,11 +55,15 @@
     font-size: 14px;
   }
 
-  .send, .adress {
-      width: 100%;
-      margin-top: 20px;
+  .person {
+    width: 47%;
   }
 
+  .send,
+  .adress {
+    width: 100%;
+    margin-top: 20px;
+  }
 }
 
 @media screen and (max-width: 768px) {
@@ -48,8 +75,7 @@
     width: 100%;
   }
 
-  .works-gallery img,
-  .person {
+  .works-gallery img {
     width: 47%;
   }
 
@@ -61,6 +87,26 @@
   .section-title {
     padding-bottom: 50px;
   }
+  .person-about {
+    left: 0%;
+    padding: 10px;
+  }
+  .person-name,
+  .person-about p,
+  .person-social {
+    margin-top: 0;
+  }
+
+  .person-name {
+    font-size: 16px;
+  }
+  .person-name span {
+    font-size: 14px;
+  }
+
+  .person-about p {
+    display: none;
+  }
 }
 
 @media screen and (max-width: 500px) {
@@ -70,15 +116,18 @@
   .person,
   .works-gallery img {
     width: 100%;
+  }  .person-about p {
+    display: block;
   }
 }
 
-@media screen and (max-width: 375px) { 
-    .container {
-        width: 90%;
-        max-width: 90%;
-    }
-    .header-title {
-        font-size: 35px;
-    }
+@media screen and (max-width: 375px) {
+  .container {
+    width: 90%;
+    max-width: 90%;
+  }
+  .header-title {
+    font-size: 35px;
+  }
+ 
 }
