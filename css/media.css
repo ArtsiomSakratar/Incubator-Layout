@@ -1,0 +1,84 @@
+@media screen and (max-width: 1024px) {
+  .about-block-logo {
+    width: 40%;
+  }
+  .about-block-logo img {
+    padding-left: 0px;
+    width: 100%;
+  }
+
+  .about-block-text {
+    width: 50%;
+  }
+
+  .person-about {
+    left: 3%;
+    padding: 10px;
+  }
+  .person-name,
+  .person-about p,
+  .person-social {
+    margin-top: 0;
+  }
+
+  .person-name {
+    font-size: 18px;
+  }
+  .person-name span {
+    font-size: 14px;
+  }
+
+  .person-about p {
+    font-size: 14px;
+  }
+
+  .send, .adress {
+      width: 100%;
+      margin-top: 20px;
+  }
+
+}
+
+@media screen and (max-width: 768px) {
+  .about-block-logo {
+    display: none;
+  }
+
+  .about-block-text {
+    width: 100%;
+  }
+
+  .works-gallery img,
+  .person {
+    width: 47%;
+  }
+
+  section {
+    padding-top: 80px;
+    padding-bottom: 80px;
+  }
+
+  .section-title {
+    padding-bottom: 50px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  header .container {
+    text-align: center;
+  }
+  .person,
+  .works-gallery img {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 375px) { 
+    .container {
+        width: 90%;
+        max-width: 90%;
+    }
+    .header-title {
+        font-size: 35px;
+    }
+}
