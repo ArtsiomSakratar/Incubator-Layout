@@ -21,8 +21,19 @@
   }
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1222px) {
+  .about-block-logo img {
+    padding-left: 0;
+  }
+
   .about-block-logo {
+    width: auto;
+    margin: 0 auto;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  /* .about-block-logo {
     width: 40%;
   }
   .about-block-logo img {
@@ -32,7 +43,7 @@
 
   .about-block-text {
     width: 50%;
-  }
+  } */
 
   .person-about {
     left: 5%;
@@ -67,13 +78,13 @@
 }
 
 @media screen and (max-width: 768px) {
-  .about-block-logo {
+  /* .about-block-logo {
     display: none;
   }
 
   .about-block-text {
     width: 100%;
-  }
+  } */
 
   .works-gallery img {
     width: 47%;
@@ -110,18 +121,31 @@
 }
 
 @media screen and (max-width: 500px) {
+  .about-block-text {
+    width: 50%;
+  }
+
+  .about-block-text {
+    width: 100%;
+  }
+
   header .container {
     text-align: center;
   }
   .person,
   .works-gallery img {
     width: 100%;
-  }  .person-about p {
+  }
+  .person-about p {
     display: block;
   }
 }
 
 @media screen and (max-width: 375px) {
+  .about-block-logo {
+    display: none;
+  }
+
   .container {
     width: 90%;
     max-width: 90%;
@@ -129,5 +153,4 @@
   .header-title {
     font-size: 35px;
   }
- 
 }
