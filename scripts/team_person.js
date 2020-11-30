@@ -1,6 +1,8 @@
 let teamPerson = document.querySelector('.team-person');
 
-for (let i = 1; i <= 6; i++) {
+const TEAM_SIZE = 6;
+
+for (let i = 1; i <= TEAM_SIZE; i++) {
     
     let person = document.createElement('div');
     person.classList.add('person');
