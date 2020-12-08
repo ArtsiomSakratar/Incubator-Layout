@@ -8,14 +8,12 @@
   .person-social {
     margin-top: 0;
   }
-
   .person-name {
     font-size: 15px;
   }
   .person-name span {
     font-size: 13px;
   }
-
   .person-about p {
     font-size: 14px;
   }
@@ -25,7 +23,6 @@
   .about-block-logo img {
     padding-left: 0;
   }
-
   .about-block-logo {
     width: auto;
     margin: 0 auto;
@@ -33,43 +30,18 @@
 }
 
 @media screen and (max-width: 1024px) {
-  /* .about-block-logo {
-    width: 40%;
-  }
-  .about-block-logo img {
-    padding-left: 0px;
-    width: 100%;
-  }
-
-  .about-block-text {
-    width: 50%;
-  } */
-
   .person-about {
-    left: 5%;
     padding: 10px;
   }
-  .person-name,
-  .person-about p,
-  .person-social {
-    margin-top: 0;
-  }
-
   .person-name {
     font-size: 18px;
   }
   .person-name span {
     font-size: 14px;
   }
-
-  .person-about p {
-    font-size: 14px;
-  }
-
   .person {
     width: 47%;
   }
-
   .send,
   .adress {
     width: 100%;
@@ -78,23 +50,13 @@
 }
 
 @media screen and (max-width: 768px) {
-  /* .about-block-logo {
-    display: none;
-  }
-
-  .about-block-text {
-    width: 100%;
-  } */
-
   .works-gallery img {
     width: 47%;
   }
-
   section {
     padding-top: 80px;
     padding-bottom: 80px;
   }
-
   .section-title {
     padding-bottom: 50px;
   }
@@ -102,19 +64,9 @@
     left: 0%;
     padding: 10px;
   }
-  .person-name,
-  .person-about p,
-  .person-social {
-    margin-top: 0;
-  }
-
   .person-name {
     font-size: 16px;
   }
-  .person-name span {
-    font-size: 14px;
-  }
-
   .person-about p {
     display: none;
   }
@@ -122,13 +74,8 @@
 
 @media screen and (max-width: 500px) {
   .about-block-text {
-    width: 50%;
-  }
-
-  .about-block-text {
     width: 100%;
   }
-
   header .container {
     text-align: center;
   }
@@ -145,7 +92,6 @@
   .about-block-logo {
     display: none;
   }
-
   .container {
     width: 90%;
     max-width: 90%;
